@@ -78,3 +78,6 @@ watchdog_temperature_sensor: ""
 
 # Maximum allowed device temperature.
 watchdog_max_temperature: ""
+
+# Whether to halt or reboot when the temperature limit is reached.
+watchdog_temp_power_off: ""
