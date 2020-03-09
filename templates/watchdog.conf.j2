@@ -63,6 +63,9 @@ test-timeout       = {{watchdog_test_timeout}}
 {% if watchdog_temperature_device %}
 temperature-device = {{watchdog_temperature_device}}
 {% endif %}
+{% if watchdog_temperature_sensor %}
+temperature-sensor = {{watchdog_temperature_sensor}}
+{% endif %}
 {% if watchdog_max_temperature %}
 max-temperature    = {{watchdog_max_temperature}}
 {% endif %}

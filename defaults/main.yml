@@ -73,5 +73,8 @@ watchdog_test_timeout: ""
 # Path to the temperature device.
 watchdog_temperature_device: ""
 
+# In newer versions of watchdog the configuration is named differently.
+watchdog_temperature_sensor: ""
+
 # Maximum allowed device temperature.
 watchdog_max_temperature: ""
