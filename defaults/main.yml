@@ -15,6 +15,10 @@ watchdog_admin: ""
 # Interval between writes to the watchdog device, in seconds.
 watchdog_interval: ""
 
+# Set the watchdog device timeout during startup.  If not set, a default is
+# used that should be set to the kernel timer margin at compile time.
+watchdog_timeout: ""
+
 # Number of intervals skipped before logging messages (see
 # watchdog.conf manpage).
 watchdog_logtick: ""
