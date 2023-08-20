@@ -25,7 +25,7 @@ logtick            = {{watchdog_logtick}}
 log-dir	           = {{watchdog_log_dir}}
 {% endif %}
 {% for ping_addr in watchdog_ping_addrs %}
-ping               = {{ping_addr | ipaddr}}
+ping               = {{ping_addr | ansible.utils.ipaddr}}
 {% endfor %}
 {% for interface in watchdog_interfaces %}
 interface          = {{interface}}
